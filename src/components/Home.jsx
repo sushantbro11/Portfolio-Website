@@ -15,7 +15,7 @@ const Home = () => {
       <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full p-20 md:flex-row">
         <div className="flex flex-col justify-center h-full">
           <h2 className="text-4xl sm:text-5xl font-bold text-white pt-14 mt-32 typing-demo ">Hey 👋, I'm Sushant</h2>
-          <p className="text-gray-500 py-4 max-w-md font-bold">
+          <p className="text-gray-500 py-4 max-w-md">
           As an aspiring web developer, I'm committed to a constant learning journey, staying aware of the latest trends to craft modern, user-friendly websites. Eager for opportunities to apply and expand my skills.
           </p>
           <button onClick={handleButtonClick} className="bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 my-4 rounded inline-flex items-center w-40">

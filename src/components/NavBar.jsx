@@ -15,7 +15,7 @@ function Navbar() {
       <h1 className='text-5xl font-signature ml-2 '>Portfolio</h1>
       <ul className='hidden md:flex gap-6 font-medium'>
         <Link to='/'><li className='hover:scale-105 duration-200'>Home</li></Link>
-        <Link to='/about'><li className='hover:scale-105 duration-200'>About</li></Link>
+        <Link to='/about'><li className='hover:scale-105 duration-200'>Education</li></Link>
         <Link to='/skills'><li className='hover:scale-105 duration-200'>Skills</li></Link>
         <Link to='/projects'><li className='hover:scale-105 duration-200'>Projects</li></Link>
         <Link to='/contact'><li className='hover:scale-105 duration-200'>Contact</li></Link>
@@ -34,7 +34,7 @@ function Navbar() {
         onClick={() => setNav(false)}
       >
         <Link to='/'><li className='hover:scale-105 duration-200'>Home</li></Link>
-        <Link to='/about'><li className='hover:scale-105 duration-200'>About</li></Link>
+        <Link to='/about'><li className='hover:scale-105 duration-200'>Education</li></Link>
         <Link to='/skills'><li className='hover:scale-105 duration-200'>Skills</li></Link>
         <Link to='/projects'><li className='hover:scale-105 duration-200'>Projects</li></Link>
         <Link to='/contact'><li className='hover:scale-105 duration-200'>Contact</li></Link>
