@@ -11,14 +11,14 @@ function Navbar() {
   const handleClick = () => setNav(!nav)
 
   return (
-    <nav className={`flex justify-between p-5 items-center border-b w-full bg-[#e7e7e7d1] ${nav ? 'fixed top-0 w-full' : 'fixed'}`}>
-      <h1 className='text-4xl'>Portfolio</h1>
-      <ul className='hidden md:flex gap-6'>
-        <Link to='/'><li>Home</li></Link>
-        <Link to='/about'><li>About</li></Link>
-        <Link to='/skills'><li>Skills</li></Link>
-        <Link to='/projects'><li>Projects</li></Link>
-        <Link to='/contact'><li>Contact</li></Link>
+    <nav className="flex justify-between p-5 items-center w-full h-20 bg-[#000000d1] font-signature1 text-white fixed">
+      <h1 className='text-5xl font-signature ml-2 '>Portfolio</h1>
+      <ul className='hidden md:flex gap-6 font-medium'>
+        <Link to='/'><li className='hover:scale-105 duration-200'>Home</li></Link>
+        <Link to='/about'><li className='hover:scale-105 duration-200'>About</li></Link>
+        <Link to='/skills'><li className='hover:scale-105 duration-200'>Skills</li></Link>
+        <Link to='/projects'><li className='hover:scale-105 duration-200'>Projects</li></Link>
+        <Link to='/contact'><li className='hover:scale-105 duration-200'>Contact</li></Link>
       </ul>
       {/* Hamburger or Close Icon */}
       <div className='md:hidden z-10' onClick={handleClick}>
@@ -33,11 +33,11 @@ function Navbar() {
         } transition-transform-gpu absolute top-0 left-0 w-full h-screen bg-zinc-800/80 flex flex-col justify-center items-center text-2xl`}
         onClick={() => setNav(false)}
       >
-        <Link to='/'><li className='hover:text-teal-700'>Home</li></Link>
-        <Link to='/about'><li className='hover:text-teal-700'>About</li></Link>
-        <Link to='/skills'><li className='hover:text-teal-700'>Skills</li></Link>
-        <Link to='/projects'><li className='hover:text-teal-700'>Projects</li></Link>
-        <Link to='/contact'><li className='hover:text-teal-700'>Contact</li></Link>
+        <Link to='/'><li className='hover:scale-105 duration-200'>Home</li></Link>
+        <Link to='/about'><li className='hover:scale-105 duration-200'>About</li></Link>
+        <Link to='/skills'><li className='hover:scale-105 duration-200'>Skills</li></Link>
+        <Link to='/projects'><li className='hover:scale-105 duration-200'>Projects</li></Link>
+        <Link to='/contact'><li className='hover:scale-105 duration-200'>Contact</li></Link>
       </ul>
     </nav>
   )
