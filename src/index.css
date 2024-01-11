@@ -4,11 +4,10 @@
 @tailwind utilities;
 
 .typing-demo {
-    width: 13ch;
-    animation: typing 2s steps(22) , blink .5s step-end  alternate;
+    width: 15ch;
+    animation: typing 2s steps(22), blink .5s step-end alternate;
     white-space: nowrap;
     overflow: hidden;
-    border-right: 3px solid;
     font-family: 'Raleway', sans-serif;
     font-size: 2em;
 }
@@ -37,12 +36,14 @@
 
 /* Add this block for the delay after one cycle */
 @keyframes repeatAnimation {
-    0%, 100% {
+    0%, 50%, 100% {
         animation-timing-function: steps(22);
+        border-right-width: 3px; /* Show the border at the beginning and end of the animation */
     }
     50% {
         animation-timing-function: steps(22);
         animation-delay: 3s;
+        border-right-width: 0; /* Hide the border after 50% of the animation */
     }
 }
 
