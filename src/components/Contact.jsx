@@ -1,5 +1,8 @@
+import Footer from "./Footer";
+
 const Contact = () => {
   return (
+    
     <div
       name="contact"
       className="w-full h-screen bg-gradient-to-b from-black to-gray-800 p-4 text-white font-signature1"
@@ -40,6 +43,7 @@ const Contact = () => {
           </form>
         </div>
       </div>
+      <Footer />
     </div>
   );
 };

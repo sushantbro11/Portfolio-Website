@@ -7,8 +7,8 @@ import img4 from '../assets/326191861_1144008916261788_892909400709766113_n.jpg'
 
 const About = () => {
   return (
-    <section className="h-screen bg-gradient-to-b from-black via-black to-gray-800 rounded-lg pt-36 font-signature1">
-      <div className="flex items-center">
+    <section className="h-screen bg-gradient-to-b from-black via-black to-gray-800 rounded-lg pt-36 font-signature1 font-semibold">
+      <div className="flex items-center ml-20 mt-10">
         <img
           src={img1}
           alt="Me sitting with a laptop"
