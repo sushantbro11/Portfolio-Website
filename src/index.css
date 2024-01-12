@@ -4,7 +4,7 @@
 @tailwind utilities;
 
 .typing-demo {
-    width: 15ch;
+    width: 16ch;
     animation: typing 2s steps(22), blink .5s step-end alternate;
     white-space: nowrap;
     overflow: hidden;
