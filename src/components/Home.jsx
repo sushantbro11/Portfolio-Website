@@ -14,7 +14,7 @@ const Home = () => {
     <div className="h-screen w-full bg-gradient-to-b from-black via-black to-gray-800">
       <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full md:flex-row">
         <div className="flex flex-col justify-center h-full">
-          <h2 className="text-4xl sm:text-5xl font-bold text-white mt-24">Hey 👋, I'm Sushant</h2>
+          <h2 className="text-4xl sm:text-5xl font-bold text-white mt-24">Hey 👋, I'm Sushant Tripathee</h2>
           <p className="text-gray-500 py-4 max-w-md font-bold">
           As an aspiring web developer, I'm committed to a constant learning journey, staying aware of the latest trends to craft modern, user-friendly websites. Eager for opportunities to apply and expand my skills.
           </p>
