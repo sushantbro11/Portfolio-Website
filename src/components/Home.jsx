@@ -2,7 +2,7 @@
 import HeroImage from "../assets/2.jpg";
 import { FaGithub, FaInstagram, FaLinkedin } from "react-icons/fa";
 import { Link } from 'react-router-dom';
-import { motion } from "framer-motion";
+// import { motion } from "framer-motion";
 
 const Home = () => {
   const handleButtonClick = () => {
@@ -34,19 +34,19 @@ const Home = () => {
             </Link>
           </div>
         </div>
-        <motion.button
+        {/* <motion.button
   whileHover={{
     scale: 1.2,
     transition: { duration: 1 },
   }}
-  whileTap={{ scale: 0.9 }}>
+  whileTap={{ scale: 0.9 }}> */}
     <img
   src={HeroImage}
   alt="my profile"
   className="rounded-full w-80 h-80 ml-40 pl-5 flex sm:justify-self-start"
 />
 
-</motion.button>
+{/* </motion.button> */}
         
 
       </div>

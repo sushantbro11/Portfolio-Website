@@ -11,7 +11,7 @@ const About = () => {
       <div className="flex items-center ml-20 mt-10">
         <img
           src={img1}
-          alt="Me sitting with a laptop"
+          alt="space"
           className="w-1/3 ml-52"
         />
         <ul className="text-white flex flex-col gap-8 ml-16">
