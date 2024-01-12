@@ -14,7 +14,7 @@ const About = () => {
           alt="Me sitting with a laptop"
           className="w-1/3 ml-52"
         />
-        <ul className="text-white flex flex-col gap-8 ml-16 font-semibold">
+        <ul className="text-white flex flex-col gap-8 ml-16">
           <li className="flex items-center">
             <img src={img2} alt="Cursor icon" className=" w-12 mr-4" />
             <div>
